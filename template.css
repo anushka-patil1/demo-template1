@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.first-container{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to right, rgb(85, 27, 124),rgb(171, 102, 218) );
+    position: relative;
+   
+}
+.navbar{
+ width: 80%;
+ /* background-color: yellow; */
+ position: absolute;
+top: 5%;
+left: 10%;
+ display: flex;
+ 
+}
+.navbar ul{
+    display: flex;
+    /* background-color: yellowgreen; */
+    margin-left: 30%;
+}
+.navbar ul li{
+    /* background-color: rebeccapurple; */
+    font-size: 15px;
+    margin: 0% 5%;
+    padding: 2%;
+    color: wheat;
+}
+.heading2{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.mypara{
+    position: absolute;
+    font-size: 15px;
+    top: 52%;
+    left: 10%;
+    font-family:'Times New Roman', Times, serif ;
+}
+.span1{
+    position: absolute;
+    top: 65%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(62, 94, 189);
+    padding: 1%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    left: 10%;
+    color: wheat;
+}
+.span2{
+    position: absolute;
+    top: 65%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(165, 35, 137);
+    padding: .5% 1.5%;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    left: 20%;
+    color: wheat;
+}
+/* **************************************************** */
+
+.second-container{
+    width: 100%;
+    height: 60vh;
+    /* background-color: rebeccapurple; */
+   
+}
+.form-container{
+    width: 80%;
+    height: 100%;
+    /* background-color: yellow; */
+    margin-left: 10%;
+}
+.tbl{
+    width: 100%;
+    height: 100%;
+    
+}
